@@ -1,4 +1,0 @@
-Aug 03, 2023 11:26:54.999 [140667571350328] INFO - Crash Uploader - Platform: Linux ServerUUID: 930e66a836f46cba4324618aae2b80680d376b40 UserId: NOUSERID Version: 1.32.5.7349-8f4248874
-Aug 03, 2023 11:26:54.999 [140667571350328] INFO - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.32.5.7349-8f4248874
-Aug 03, 2023 11:26:54.999 [140667571350328] INFO - Post-processed minidump directory: /tmp
-Aug 03, 2023 11:26:54.999 [140667603032072] INFO - Crash Uploader - Processing Complete.
