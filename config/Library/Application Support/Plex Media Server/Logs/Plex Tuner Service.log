@@ -1,0 +1,27 @@
+Aug 03, 2023 11:26:55.285 [0x7f3727959b38] INFO - Plex Tuner Service v1.32.5.7349-8f4248874 - Docker Docker Container (LinuxServer.io) x86_64 - build: 
+Aug 03, 2023 11:26:55.285 [0x7f3727959b38] INFO - Linux version: 6.1.0-9-amd64 (#1 SMP PREEMPT_DYNAMIC Debian 6.1.27-1 (2023-05-08)), language: en-US
+Aug 03, 2023 11:26:55.285 [0x7f3727959b38] INFO - Processor Intel(R) Core(TM) i9-10885H CPU @ 2.40GHz
+Aug 03, 2023 11:26:55.285 [0x7f3727959b38] INFO - /usr/lib/plexmediaserver/Plex Tuner Service /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.32.5.7349-8f4248874 32600
+Aug 03, 2023 11:26:55.285 [0x7f37293f4808] INFO - [I] broker_t::start...
+Aug 03, 2023 11:26:55.287 [0x7f37293f4808] INFO - [I] device_manager_t::init.
+Aug 03, 2023 11:26:55.287 [0x7f37293f4808] INFO - [I] device_manager_t::init. Initialize provider manager
+Aug 03, 2023 11:26:55.287 [0x7f37293f4808] INFO - [I] device_manager_t::init. Initialize all device auxes
+Aug 03, 2023 11:26:55.287 [0x7f37293f4808] INFO - [I] dvb_device_factory_t::get_aux_list
+Aug 03, 2023 11:26:55.287 [0x7f37293f4808] INFO - [I] tvbutler_aux_t::init
+Aug 03, 2023 11:26:55.290 [0x7f37293f4808] INFO - [I] web_server_t::start. Starting web server on port 32600
+Aug 03, 2023 11:27:04.085 [0x7f37276ccb38] INFO - [I] web_service_t::process_device_discovery
+Aug 03, 2023 11:27:04.085 [0x7f37276ccb38] INFO - [I] device_reactor_t::get_device_list ()
+Aug 03, 2023 11:27:06.105 [0x7f37276ccb38] INFO - [I] SAT2IP - discover_satip_servers(): no servers found
+Aug 03, 2023 11:27:06.526 [0x7f37276ccb38] INFO - [I] v4l::DeviceGetList_impl. getting v4l device list
+Aug 03, 2023 11:27:06.531 [0x7f37276ccb38] INFO - [I] onetv_factory::DeviceGetListEx >>
+Aug 03, 2023 11:27:06.531 [0x7f37276ccb38] WARN - [W] onetv_factory::DeviceGetListEx. libusb_init returned an error -99
+Aug 03, 2023 11:30:27.631 [0x7f37293f4808] INFO - Received SIGINT: Interrupt from keyboard.
+Aug 03, 2023 11:30:27.665 [0x7f37293f4808] INFO - [I] device_manager_t::term
+Aug 03, 2023 11:30:27.665 [0x7f37293f4808] INFO - [I] device_manager_t::term. Stop all devices
+Aug 03, 2023 11:30:27.665 [0x7f37293f4808] INFO - [I] device_manager_t::term. Shut down all device auxes
+Aug 03, 2023 11:30:27.665 [0x7f37293f4808] INFO - [I] tvbutler_aux_t::term
+Aug 03, 2023 11:30:27.666 [0x7f37293f4808] INFO - [I] web_server_t::stop. Web server is stopped
+Aug 03, 2023 11:30:27.666 [0x7f37293f4808] INFO - [I] device_manager_t::term
+Aug 03, 2023 11:30:27.666 [0x7f37293f4808] INFO - [I] device_manager_t::term. Stop all devices
+Aug 03, 2023 11:30:27.666 [0x7f37293f4808] INFO - [I] device_manager_t::term. Shut down all device auxes
+Aug 03, 2023 11:30:27.666 [0x7f37293f4808] INFO - [I] broker_t::shutdown. Shutdown is completed.
